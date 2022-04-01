@@ -6,7 +6,7 @@
         <h2>Keep in touch with MINH MIKE NGO</h2>
         <div class="form-container form-grid">    
             <div>    
-                <img src="resources/img/avatar.jpg" alt="MinhMikeNgo" class="avatar2">
+                <img src="img/avatar.jpg" alt="MinhMikeNgo" class="avatar2">
                 <h4>Minh Mike Ngo</h4>                   
                 <a href="https://www.facebook.com/minhngo2408/"target="_blank"><ion-icon name="logo-facebook" size="large" > </ion-icon></a>
                 <a href="https://www.linkedin.com/in/minhmikengo"target="_blank"><ion-icon name="logo-linkedin" size="large" > </ion-icon></a>
