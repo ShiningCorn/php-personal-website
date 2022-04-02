@@ -1,7 +1,9 @@
 <header class="header">
-    <a href="index.php">
-        <img class="logo" src="img/logo.png" alt="MinhMikeNgo">
-    </a>
+    <div class="logo-name">
+        <a href="index.php"> <img class="logo" src="img/avatarsmall.jpg" alt="MinhMikeNgo">  </a>
+        <a class="my-name" href="index.php">Minh Mike Ngo</a>
+    </div>
+
     <nav class="main-nav">
         <ul class="main-nav-list">
             <li><a class="main-nav-link" href="index.php">Home</a></li>

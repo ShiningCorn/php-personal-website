@@ -18,14 +18,15 @@
 
       <script src="js/scroll.js"></script>
       
-      <title>Minh's Website</title>
+      <title>Minh Mike Ngo</title>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 
   </head>
   <body>
 
     <?php include 'components/header.php'?>
 
-    <main>
+    <main></main>
       <section class="section-intro">
           <div class="intro">
             <div class="intro-description">
