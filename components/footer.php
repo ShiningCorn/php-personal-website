@@ -4,8 +4,8 @@
 
     <section class="section-contact" id="contact">
         <h2>Keep in touch with MINH MIKE NGO</h2>
-        <div class="form-container form-grid">    
-            <div>    
+        <div class="container grid grid--2-cols grid--center-v">    
+            <div class="logo-link">    
                 <img src="img/avatar.jpg" alt="MinhMikeNgo" class="avatar2">
                 <h4>Minh Mike Ngo</h4>                   
                 <a href="https://www.facebook.com/minhngo2408/"target="_blank"><ion-icon name="logo-facebook" size="large" > </ion-icon></a>
@@ -30,13 +30,10 @@
                             <textarea name="message" placeholder="Enter Your Message!"></textarea>
                         </div>
 
-                        <input class="btn btn--full btn-send" type="submit" value="Send &rarr;" data-wait="Please wait..." >
-
+                        <input type="submit" value="Send &rarr;" data-wait="Please wait..." >
                     </form>
                 </div>
             </div>
         </div>
     </section>
-        <button onclick="topFunction()" id="go-top-btn" title="Go to top"><ion-icon size="large" name="arrow-up-circle-sharp"></ion-icon></button>
-        <script src="resources/js/scroll.js"></script>
 </footer>

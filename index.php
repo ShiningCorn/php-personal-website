@@ -6,8 +6,8 @@
 
       <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 
-      <link rel="stylesheet" href="css/index_style.css">
       <link rel="stylesheet" href="css/general.css">
+      <link rel="stylesheet" href="css/index_style.css">
 
       <!-- IONIC ICONS -->
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -15,18 +15,13 @@
 
       <!-- connect to data base  -->
       <php require 'database/connect.php'?> 
-
-      <script src="js/scroll.js"></script>
-      
+    
       <title>Minh Mike Ngo</title>
-      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 
   </head>
   <body>
-
-    <?php include 'components/header.php'?>
-
-    <main></main>
+  <?php include 'components/header.php'?>
+    <main>
       <section class="section-intro">
           <div class="intro">
             <div class="intro-description">
@@ -50,7 +45,7 @@
                   
               </div>
 
-              <div class="gallery">
+              <div class="container grid grid--3-cols gallery">
                   <figure class="gallery-item">
                       <img
                       src="img/team-up.jpg"
@@ -113,7 +108,7 @@
       <section class="section-skill" id="section-skill">
           <div class="row">
               <h2> My Skills</h2>
-              <div class="row">
+              <div class="container grid grid--1-cols grid--center-v">
                   <ul class="work-skill">
                       <li>Fast learner.</li>
                       <li>Fresh-minded ideas. </li>
@@ -125,7 +120,7 @@
                   </ul>
               </div>
           </div>
-          <div class="container grid grid--4-cols">
+          <div class="container grid grid--4-cols grid--center-v">
             <div class="feature">
               <ion-icon class= "icon-big" name="code-slash-outline"></ion-icon>
               <h3>Frontend</h3>
@@ -260,13 +255,15 @@
               </ul>
             </div>
           </div>
+
         </div>
         <div class="github-link">
-          <a class="link" href="https://github.com/ShiningCorn/" target="_blank" >Visit My Github &rarr;</a>
+          
+          <a class="link" href="https://github.com/ShiningCorn/" target="_blank" ><ion-icon class="logo-github" name="logo-github"></ion-icon>&nbsp Visit My Github &rarr;</a>
+          
         </div>
       </section>
-
     </main>
-      <?php include 'components/footer.php';?>
+    <?php include 'components/footer.php';?> 
   </body>
 </html>

@@ -2,6 +2,9 @@
 /* BASIS SETUP */
 /*------------------------------------------*/
 
+
+#6D77D0  #c2000a  #1f4ba1 
+
 * {
   padding: 0;
   margin: 0;
@@ -13,23 +16,21 @@ html {
 }
 
 body {
-  color: rgb(0, 0, 0);
   font-family: 'Lato', 'Arial', sans-serif;
   line-height: 2;
   font-weight: 350;
-  background-color: #0c2346;
+  background-color: #6D77D0;
 }
 
 p {
   font-size: 2rem;
   line-height: 125%;
+  font-weight: 400;
 }
 
 section {
   padding: 80px 0;    
 }
-
-
 
 /*------------------------------------------*/
 /* REUSEABLE COMPONETS */
@@ -46,16 +47,10 @@ section {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-
-  /* margin-bottom: 9.6rem; */
 }
 
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
-
-.grid:not(:last-child) {
-  margin-bottom: 9.6rem;
+.grid--1-cols {
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .grid--2-cols {
@@ -64,6 +59,7 @@ section {
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+  
 }
 
 .grid--4-cols {
@@ -72,6 +68,7 @@ section {
 
 .grid--center-v {
   align-items: center;
+  text-align: center;
 }
 
 
@@ -105,41 +102,41 @@ h2:after {
   color: #ffff;
   display: block;
   height: 2px;
-  background-color: #be1e46;
+  background-color: #1ebea9;
   content: "";
-  width: 100px;
+  width: 10.6rem;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 2rem;
+  margin-bottom: 8.6rem;
 }
 
 h3 {
-
   font-size: 2rem;
   margin-bottom: 3rem;
   font-weight: bold;
+
 }
 
 h4 {
   color: #ffff;
   font-size: 2rem;
   font-weight: bold;
+
 }
 
 
 /*------- ICONS ------ */
 
 ion-icon {
-  padding: 15px;
-  color: #ffff;
+  padding: 1rem;
 }
 
 .icon-big {
   font-size: 3.6rem;
-  color: #2e1ebe;
+  color: #1f4ba1;
   background-color: #fff;
-  margin-bottom: 3.2rem;
   border-radius: 50%;
+  padding: 15px;
 }
 
 
@@ -148,17 +145,15 @@ ion-icon {
 .link,
 .link:visited {
   display: inline-block;
-  color: #2979d4;
+  color: #4267B2;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
   transition: all 0.3s;
 }
 
 .link:hover,
 .link:active {
-  color: #2e1ebe;
-  border-bottom: 1px solid transparent;
+  color: #c2000a;
 }
 
 /*------- BUTTONS ------ */
@@ -167,7 +162,6 @@ ion-icon {
 .btn:link,
 .btn:visited {
   display: inline-block;
-
   text-decoration: none;
   font-size: 2rem;
   font-weight: 500;
@@ -176,50 +170,19 @@ ion-icon {
   cursor: pointer;
   font-family: inherit;
   margin-bottom: 1.6rem;
-
   transition: all 0.3s;
 }
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #2979d4;
+  background-color: #1f4ba1;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #2e1ebe;
+  background-color: #c2000a;
 }
-
-.btn--form {
-  background-color: #2979d4;
-  color: #fff;;
-  color: #fdf2e9;
-  align-self: end;
-  padding: 1.2rem;
-}
-
-.btn--form:hover {
-  background-color: #2e1ebe;
-}
-
-
-#go-top-btn {
-  display: none;
-  position: fixed;
-  border-radius: 10%;
-  padding: 0.3rem 2.2rem;
-  bottom: 60px;
-  right: 60px;
-  color: white;
-  cursor: pointer;
-  background-color: #2979d4;
-  border: none;
-}
-
-#go-top-btn:hover {
-  background-color: #084268 ;
-} */
 
 
 /*------- LIST ------ */
