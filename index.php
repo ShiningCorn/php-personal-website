@@ -29,7 +29,7 @@
                 I am passionate about technology,<br> innovation and automation.
               </h1>
               <a class="btn btn--full margin-right-sm"" href="index.php#section-aboutme">About Minh</a>
-              <a class="btn btn--full margin-right-sm" href="index.php#contact">Contact Minh<a>
+              <a class="btn btn--full margin-right-sm" href="index.php#contact">Contact Minh</a>
             </div>
           </div>
           
@@ -42,6 +42,7 @@
                   <h4>Creative thinking never ends...</h4>
                   <p>Graduated with my Bachelor's in Computer Science with a concentration in Software Development. I also have Adobe Certified Professional in Visual Design Using Adobe Photoshop and advanced HTML5/CSS3 certifications.<br><br>While in school, I was the member of our tech club where we did projects using Unity, React, Angular and so much more. In 2018-2019, me and my team were the winner's of Game Development Tournament and Software Design Cup in University of Houston.  
                   </p>
+                  <h3><a class="link" href="#" target="_blank">More about me!</a></h3>
                   
               </div>
 
@@ -116,7 +117,6 @@
                       <li>Take ideas and turn into Innovative Software.</li>
                       <li>Creative graphic design and UI applications.</li>
                       <li>Ability to work in high-pressure environments.</li>
-
                   </ul>
               </div>
           </div>
@@ -170,6 +170,31 @@
       <section class="section-portfolio" id="section-portfolio">
         <h2>Portfolio</h2>        
         <div class="container grid grid--3-cols margin-bottom-md">
+
+          <div class="experience">
+            <img
+              src="img/campzia.png"
+              alt="Campzia"
+            />
+            <div class="experience-content">
+              <div class="experience-tags">
+                <span class="tag tag--frontend">HTML5</span>
+                <span class="tag tag--frontend">CSS3</span>
+                <span class="tag tag--frontend">JavaScript</span>
+                <span class="tag tag--frontend">Bootstrap</span>
+              </div>
+              <p class="experience-title">
+                <a class="link" href="https://campzia.com/" target="_blank" >Frontend Developer at Campzia.com</a>
+              </p>
+              
+              <ul class="experience-attributes">
+                <li>Developed product alert email automation for the marketing team. Integrated with SendInBlue CIM workflow to send automated campaign emails to alert customers about products news.</li>
+                <li>Using the latest technology like HTML5, CSS3, Bootraps frameworks. Using AJAX call and JQuerry to data to SendInBlue API.</li>
+                <li>Using PHP and LAMP stack for backend to develop admin dashboard and store into MySQL database.</li>
+                <li>Deployed PHP code into Azure cloud environment by using Git and SourceTree.</li>
+            </div>
+          </div>
+
           <div class="experience">
             <img
               src="img/personal-website.png"
@@ -183,30 +208,14 @@
                 <span class="tag tag--backend">PHP</span>
                 <span class="tag tag--mix">MySQL</span>
               </div>
-              <p class="experience-title">Personal Website</p>
+              <p class="experience-title">
+                <a class="link" href="http://minhmikengo.com" target="_blank">Personal Website</a>
+              </p>
               <ul class="experience-attributes">
                 <li>Designed and built website from scratch using HTML5, CCS3 and vanilla JavaScript.</li>
                 <li>Used XAMPP, PHP, PHPMyAdmin and MySQL to host up a dynamic website.</li>
                 <li>Created Contact Form with AJAX jQuery, Bootstrap, PHP and MySql </li>
                 <li>Deployed project from GitHub Repo into Azure App Services</li>
-              </ul>
-            </div>
-          </div>
-
-        <div class="experience">
-            <img
-              src="img/campzia.png"
-              alt="Campzia"
-            />
-            <div class="experience-content">
-              <div class="experience-tags">
-                <span class="tag tag--frontend">HTML5</span>
-                <span class="tag tag--frontend">CSS3</span>
-                <span class="tag tag--frontend">JavaScript</span>
-                <span class="tag tag--frontend">Bootstrap</span>
-              </div>
-              <p class="experience-title">Junior Software Engineer at Campzia</p>
-              <ul class="experience-attributes">
               </ul>
             </div>
           </div>
@@ -224,7 +233,7 @@
                 <span class="tag tag--mix">Git</span>
                 <span class="tag tag--mix">MongoDB</span>
               </div>
-              <p class="experience-title">MEAN Stack Project</p>
+              <p class="experience-title"><a class="link" href="https://github.com/DeveloperMinh/TestingRequestWebsite" target="_blank">MEAN Stack Project</a></p>
               <ul class="experience-attributes">
                 <li>Implemented web UI and back-end logic. </li>
                 <li>Created and design data structure on MongoDB Atlas. </li>
@@ -247,7 +256,7 @@
                 <span class="tag tag--mix">Svg SVN</span>
                 <span class="tag tag--mix">Git</span>
               </div>
-              <p class="experience-title">Java Projects</p>
+              <p class="experience-title"><a class="link" href="https://github.com/DeveloperMinh" target="_blank">Java Projects</a></p>
               <ul class="experience-attributes">
                 <li>Mastermind Game: the program uses JFrames and JButton from Java with Test First Development process. </li>
                 <li>Fibocani Calculator: Four implementations of a function to compute the Fibonacci number at a given position. </li>
@@ -259,7 +268,7 @@
         </div>
         <div class="github-link">
           
-          <a class="link" href="https://github.com/ShiningCorn/" target="_blank" ><ion-icon class="logo-github" name="logo-github"></ion-icon>&nbsp Visit My Github &rarr;</a>
+          <a class="link" href="https://github.com/DeveloperMinh" target="_blank" ><ion-icon class="logo-github" name="logo-github"></ion-icon>&nbsp Visit My Github &rarr;</a>
           
         </div>
       </section>
