@@ -38,12 +38,13 @@
       <section class="section-about-me" id="section-aboutme">
           <h2>About me</h2>
           <div class="container grid grid--2-cols grid--center-v margin-bottom-md">
-              <div class="about-me-text">              
-                  <h4>Creative thinking never ends...</h4>
+              <div>              
+                  <h3>Creative thinking never ends...</h3>
                   <p>Graduated with my Bachelor's in Computer Science with a concentration in Software Development. I also have Adobe Certified Professional in Visual Design Using Adobe Photoshop and advanced HTML5/CSS3 certifications.<br><br>While in school, I was the member of our tech club where we did projects using Unity, React, Angular and so much more. In 2018-2019, me and my team were the winner's of Game Development Tournament and Software Design Cup in University of Houston.  
+                  <br>
+                  <br>
                   </p>
-                  <h3><a class="link" href="#" target="_blank">More about me!</a></h3>
-                  
+                  <h3><a class="link" href="#" target="_blank">More about me!</a></h3>                 
               </div>
 
               <div class="container grid grid--3-cols gallery">
@@ -121,7 +122,7 @@
               </div>
           </div>
           <div class="container grid grid--4-cols grid--center-v">
-            <div class="feature">
+            <div class="skill">
               <ion-icon class= "icon-big" name="code-slash-outline"></ion-icon>
               <h3>Frontend</h3>
               <ul class="programming-skill">
@@ -132,7 +133,7 @@
               </ul>
               </p>
             </div>
-            <div class="feature">
+            <div class="skill">
               <ion-icon class= "icon-big" name="file-tray-stacked-outline"></ion-icon>
               <h3>Backend</h3>
                   <ul class="programming-skill">
@@ -143,7 +144,7 @@
                   </ul>
               </p>
             </div>
-            <div class="feature">
+            <div class="skill">
               <ion-icon class= "icon-big" name="desktop-outline" ></ion-icon>
               <h3>Technologies</h3>
                   <ul class="programming-skill">
@@ -153,7 +154,7 @@
                       <li>Photoshop, Adobe Creative Cloud, Illutrator.</li>
                   </ul>
             </div>
-            <div class="feature">
+            <div class="skill">
               <ion-icon class= "icon-big" name="trending-up-outline" ></ion-icon>
               <h3>Development</h3>
                   <ul class="programming-skill">

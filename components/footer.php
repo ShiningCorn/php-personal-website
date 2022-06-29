@@ -3,7 +3,7 @@
     <?php include 'database/send_email.php' ?>
 
     <section class="section-contact" id="contact">
-        <h2>Keep in touch with MINH MIKE NGO</h2>
+        <h2 class="footer-header">Keep in touch with MINH MIKE NGO</h2>
         <div class="container grid grid--2-cols grid--center-v">    
             <div class="logo-link">    
                 <img src="img/avatar.jpg" alt="MinhMikeNgo" class="avatar2">

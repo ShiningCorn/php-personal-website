@@ -1,17 +1,14 @@
 /**************************/
 /* HEADER */
 /**************************/
+* {
+  padding: 0;
+  margin: 0;
+}
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   font-weight: 800;
   font-size: 2rem;
-  
-  height: 10.6rem;
-  padding: 0 8rem;
 }
   
 .logo-name {
@@ -21,13 +18,15 @@
 }
 
 .logo {
-  height: 8.2rem;
+  height: 13.2rem;
+  border: 1.5px solid black;
   border-radius: 50%;
 }
 
 .my-name {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-size: 2.5rem;
 }
 
 .main-nav-list {
@@ -42,7 +41,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
   transition: all 0.3s;
 }
 
@@ -72,10 +71,9 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/office.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     background-attachment: fixed;
     padding: 4.8rem 0 9.6rem 0;
-
     display: flex;
     align-items: center;
 }
@@ -90,11 +88,7 @@
 /*------------------------------------------*/
 /* SECTION ABOUT-ME */
 /*------------------------------------------*/
-
-.about-me-text {
-  color: #fff;
-}
-    
+ 
 .gallery {
   gap: 1.6rem;
   padding: 1.6rem;
@@ -121,6 +115,10 @@
     background-size: cover;
     color:#fff;
     background-attachment: fixed;
+}
+
+.skill {
+  text-align: center;
 }
 
 .work-skill {
@@ -237,10 +235,18 @@
 /* SECTION CONTACT/
 /*------------------------------------------*/ 
 
+.footer-header {
+  color: #fff;
+}
+
 .section-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/team.jpeg);
   background-size: 100%;
   color:rgb(0, 0, 0);
+}
+
+.logo-link {
+  text-align: center;
 }
 
 .avatar2 {
