@@ -1,3 +1,3 @@
-# php-personal-website
+#personal-website
 My personal website
-Using HTML5, CSS5, PHP and AJAX
+Using HTML5, CSS5 and JavaScript.
