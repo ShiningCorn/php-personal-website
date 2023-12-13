@@ -1,0 +1,180 @@
+/*******************************/
+/* BELOW 1200px (Smaller deskstops */
+/*******************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutme {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/*******************************/
+/* BELOW 944px (Tablets */
+/*******************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .intro-section {
+    padding-bottom: 4.8rem;
+  }
+
+  .skills-section {
+    padding-bottom: 4.8rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 45fr 65fr;
+    gap: 4.8rem;
+  }
+}
+
+/*******************************/
+/* BELOW 810px (Smaller Tablets */
+/*******************************/
+
+@media (max-width: 51em) {
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 3.2rem;
+  }
+  .container {
+    margin: 0;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .programming-skill {
+    list-style: none;
+    line-height: 135%;
+    text-align: center;
+    padding: 0 0 3.2rem 0;
+  }
+  /* MOBILE NAVIGATION */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/*******************************/
+/* BELOW 630px (Phone) */
+/*******************************/
+
+@media (max-width: 35em) {
+  h1 {
+    word-spacing: -1px;
+  }
+
+  section {
+    padding: 2.4rem 0;
+  }
+
+  .grid {
+    gap: 1.6rem;
+  }
+
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    height: 5.2rem;
+  }
+  
+  .my-name {
+    display: none;
+  }
+
+  .header {
+    height: 6.4rem;
+  }
+
+  .header.sticky {
+    height: 5.4rem;
+  }
+
+  .intro {
+    height: 60svh;
+  }
+
+  .basic-skills {
+    padding: 2.4rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+
+    padding: 2.4rem;
+  }
+}
