@@ -79,6 +79,9 @@ Medium: 11px
   --primary-color: #090b16;
   --secondary-color: #232c5a;
   --tertiary-color: #eef1fc;
+  .icon-mobile-nav {
+    color: #fff;
+  }
 }
 
 html {
@@ -162,7 +165,6 @@ h1 {
 h2 {
   font-size: 3.6rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
   text-align: center;
   margin: 0 auto;
   color: var(--tertiary-color);
@@ -228,6 +230,7 @@ ion-icon {
   color: #e3c654;
   background-color: #fff;
 }
+
 
 
 /*------- LINKS ------ */
